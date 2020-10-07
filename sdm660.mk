@@ -323,7 +323,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     qcom.fmradio.xml
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     qcom.fmradio
 endif
 
@@ -510,10 +510,9 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     rild \
-    telephony-ext
 
 # RIL JAR
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Seccomp policy
@@ -614,7 +613,7 @@ PRODUCT_PACKAGES += \
     libnl
 
 # WiFi Display JAR
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # XiaomiParts
